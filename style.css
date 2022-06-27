@@ -1,0 +1,164 @@
+/* Universal Style */
+html {
+  width: 90rem;
+  height: 50rem;
+  font-family:"Montserrat", sans-serif;
+  font-size:16px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:darksalmon;
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+  margin:0;
+}
+
+p {
+  margin:0;
+  font-size: 0.875rem;
+}
+
+.text {
+
+  color:gray;
+  color:hsl(228, 12%, 48%);
+  line-height: 1.5;
+}
+
+.btn {
+  display:flex;
+  justify-content: center;
+  padding:0.8rem 0;
+  width: 100%;
+  margin:0 auto;
+  color:white;
+  font-weight: bold;
+  background-color: green;
+  background-color:hsl(158, 36%, 37%);
+  border-style: none;
+  border-radius: 0.5rem;
+  cursor:pointer;
+}
+
+.btn:active {
+  background-color: black;
+  background-color: hsl(212, 21%, 14%);
+}
+
+.mobile {
+  display: none;
+}
+
+.logo {
+  margin-right: 0.5rem;
+}
+
+/* Product Card Section */
+.product-card {
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 50%;
+  height: 31.25rem;;
+  background-color: white;
+  background-color: hsl(0, 0%, 100%);
+  overflow:hidden;
+  border-radius: 1rem;
+}
+
+.product-image-container {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.product-image-container img {
+  width: 100%;
+  height: 0;
+  min-height: 100%;
+}
+
+.product-card-content-wrapper {
+  box-sizing: border-box;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:1.5rem 2.5rem;
+}
+
+.product-card-content {
+  width:90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.product-type {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.product-card-heading {
+  font-family: "Fraunces", serif;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.discount-price {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  color: green;
+  color:hsl(158, 36%, 37%);
+}
+
+.actual-price {
+  margin:0 auto;
+}
+
+@media only screen and (max-width:375px) {
+  html {
+    width:23.5rem;
+    height:41.6rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display:block;
+  }
+
+  .product-card {
+    width: 80%;
+    height:100%;
+  }
+
+  .product-image-container {
+    width: 100%;
+    height:35%;
+  }
+
+  .product-card-content-wrapper {
+    width: 100%;
+    height: 65%;
+    padding:1rem;
+  }
+
+  .product-image-container img {
+    max-width: 100%;
+  }
+
+}
