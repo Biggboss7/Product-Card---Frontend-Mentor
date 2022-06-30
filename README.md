@@ -38,8 +38,8 @@ This is the solution to the Product preview card component challenge on Frontend
 	  ### Links
 	    Here are the links of the product preview which I've created.
 	  
-	    - Solution URL :
-	    - Live Site URL :
+	    - Solution URL : https://github.com/Biggboss7/Product-Card---Frontend-Mentor/
+	    - Live Site URL : https://biggboss7.github.io/Product-Card---Frontend-Mentor/
 
 ## My Process
 
